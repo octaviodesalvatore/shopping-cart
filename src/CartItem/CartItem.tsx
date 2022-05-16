@@ -44,7 +44,7 @@ export const CartItem: React.FC<Props> = ({
           </Button>
         </div>
       </div>
-      <img src="{item.image}" alt="{image.title}" />
+      <img src={item.image} alt={item.title} />
     </Wrapper>
   );
 };
